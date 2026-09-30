@@ -1,0 +1,37 @@
+[
+    {
+        "id": "dynamic-routes",
+        "title": "Understanding Dynamic Routes in Next.js",
+        "date": "2026-09-17",
+        "author": "Tad MacPherson",
+        "contentHtml": "<p>A file named <code>[id].js</code> can represent many pages. The value in the URL becomes the <code>id</code> parameter, which lets one component display different posts.</p><p>For this blog, each JSON record becomes a possible route. The post named <code>dynamic-routes</code> can be opened at <code>/posts/dynamic-routes</code>.</p>"
+    },
+    {
+        "id": "pre-rendering",
+        "title": "Two Forms of Pre-rendering",
+        "date": "2026-09-16",
+        "author": "Tad MacPherson",
+        "contentHtml": "<p>Next.js has two forms of pre-rendering: <strong>Static Generation</strong> and <strong>Server-side Rendering</strong>. The difference is in when it generates the HTML for a page.</p><ul><li>Static Generation creates HTML at build time and reuses it for requests.</li><li>Server-side Rendering creates HTML on each request.</li></ul><p>Next.js lets each page choose the approach that fits its data.</p>"
+    },
+    {
+        "id": "server-side-rendering",
+        "title": "Choosing Between SSG and SSR",
+        "date": "2026-09-15",
+        "author": "Tad MacPherson",
+        "contentHtml": "<p>Static generation is a strong choice when content can be prepared ahead of time. Server-side rendering is better when a page must use fresh data for every request.</p><p>A blog post is usually a good candidate for static generation. A dashboard showing a live account balance would be a better candidate for server-side rendering.</p>"
+    },
+    {
+        "id": "static-generation",
+        "title": "Building Pages Ahead of Time",
+        "date": "2026-09-14",
+        "author": "Tad MacPherson",
+        "contentHtml": "<p>Static generation gives a page its HTML before a visitor requests it. That can make a content-focused site fast and dependable.</p><p>The page can still receive post data through <code>getStaticProps</code> during the build.</p>"
+    },
+    {
+        "id": "ssg-ssr",
+        "title": "A Practical Rendering Decision",
+        "date": "2026-09-13",
+        "author": "Tad MacPherson",
+        "contentHtml": "<p>The best rendering strategy depends on how often the data changes and whether each request needs a different result.</p><p>Understanding that tradeoff helps a Next.js application stay both simple and responsive.</p>"
+    }
+]

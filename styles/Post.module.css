@@ -1,0 +1,40 @@
+.post {
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid #b8d8d2;
+    border-radius: 12px;
+    background: #f8fcf8;
+    box-shadow: 0 8px 20px rgba(22, 66, 91, 0.1);
+}
+
+.title {
+    margin: 0;
+    color: #16425b;
+    font-size: 2.25rem;
+}
+
+.meta {
+    margin: 0.5rem 0 1.5rem;
+    color: #087e8b;
+    font-size: 0.95rem;
+}
+
+.content {
+    color: #28536b;
+    line-height: 1.75;
+}
+
+.content h2 {
+    margin-top: 2rem;
+    color: #16425b;
+}
+
+.content code {
+    padding: 0.15rem 0.35rem;
+    border-radius: 4px;
+    background: #e4f3ef;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
